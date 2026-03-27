@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adicionar Perfil - Gotflix</title>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <h1>Gotflix</h1>
+        <p>Adicionar Perfil</p>
+      </div>
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        aria-label="Alternar modo escuro/claro"
+      >
+        <span class="icon">🌙</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="add-profile">
+        <h2>Criar Novo Perfil</h2>
+        <form id="profile-form">
+          <div class="form-group">
+            <label for="profile-name">Nome do Perfil:</label>
+            <input type="text" id="profile-name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label>Escolher Avatar:</label>
+            <div class="avatar-selection">
+              <label>                
+                <img src="assets/avatar-1.png" alt="Avatar 1" />
+                <input type="radio" name="avatar" value="avatar-1.png" checked />
+              </label>
+              <label>                
+                <img src="assets/avatar-2.png" alt="Avatar 2" />
+                <input type="radio" name="avatar" value="avatar-2.png" />
+              </label>
+              <label>                
+                <img src="assets/avatar-3.png" alt="Avatar 3" />
+                <input type="radio" name="avatar" value="avatar-3.png" />
+              </label>
+              <label>                
+                <img src="assets/avatar-4.png" alt="Avatar 4" />
+                <input type="radio" name="avatar" value="avatar-4.png" />
+              </label>
+            </div>
+          </div>
+          <div class="form-group checkbox-group">
+            <label for="profile-kids">
+              <input type="checkbox" id="profile-kids" name="kids" />
+              Perfil para Crianças
+            </label>
+          </div>
+          <button type="submit">Salvar Perfil</button>
+          <button type="button" onclick="window.history.back()">Cancelar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Netflix, Inc.</p>
+    </footer>
+    <script src="theme.js"></script>
+    <script src="add-profile.js"></script>
+  </body>
+</html></content>
+<parameter name="filePath">d:\Projetos\Projetos_programacao\Alura\Front-end\netflix\add-profile.html
