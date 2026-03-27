@@ -451,6 +451,8 @@ button[type="button"]:hover {
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
+   
   }
 }
 
@@ -467,5 +469,4 @@ button[type="button"]:hover {
   .profiles-list {
     gap: 0.8rem;
   }
-  
 }
