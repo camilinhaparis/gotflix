@@ -19,8 +19,8 @@ function loadProfiles() {
     div.innerHTML = `
       <img src="assets/${profile.avatar}" alt="Avatar de ${profile.name}" />
       <span class="profile-name">${profile.name}</span>
-      <button class="edit-btn" data-index="${index}">Editar</button>
-      <button class="delete-btn" data-index="${index}">Excluir</button>
+      <button class="edit-btn" data-index="${index}">Edit</button>
+      <button class="delete-btn" data-index="${index}">Delete</button>
     `;
     profilesContainer.appendChild(div);
   });

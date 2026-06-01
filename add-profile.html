@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Adicionar Perfil - Gotflix</title>
+    <title>Add a Profile - Gotflix</title>
   </head>
   <body>
     <header>
       <div class="brand">
         <h1>Gotflix</h1>
-        <p>Adicionar Perfil</p>
+        <p>Add a Profile</p>
       </div>
       <button
         id="theme-toggle"
@@ -23,28 +23,33 @@
 
     <main>
       <section class="add-profile">
-        <h2>Criar Novo Perfil</h2>
+        <h2>Create a New Profile</h2>
         <form id="profile-form">
           <div class="form-group">
-            <label for="profile-name">Nome do Perfil:</label>
+            <label for="profile-name">Profile Name:</label>
             <input type="text" id="profile-name" name="name" required />
           </div>
           <div class="form-group">
-            <label>Escolher Avatar:</label>
+            <label>Choose an Avatar:</label>
             <div class="avatar-selection">
-              <label>                
+              <label>
                 <img src="assets/avatar-1.png" alt="Avatar 1" />
-                <input type="radio" name="avatar" value="avatar-1.png" checked />
+                <input
+                  type="radio"
+                  name="avatar"
+                  value="avatar-1.png"
+                  checked
+                />
               </label>
-              <label>                
+              <label>
                 <img src="assets/avatar-2.png" alt="Avatar 2" />
                 <input type="radio" name="avatar" value="avatar-2.png" />
               </label>
-              <label>                
+              <label>
                 <img src="assets/avatar-3.png" alt="Avatar 3" />
                 <input type="radio" name="avatar" value="avatar-3.png" />
               </label>
-              <label>                
+              <label>
                 <img src="assets/avatar-4.png" alt="Avatar 4" />
                 <input type="radio" name="avatar" value="avatar-4.png" />
               </label>
@@ -53,11 +58,11 @@
           <div class="form-group checkbox-group">
             <label for="profile-kids">
               <input type="checkbox" id="profile-kids" name="kids" />
-              Perfil para Crianças
+              Profile for Kids
             </label>
           </div>
-          <button type="submit">Salvar Perfil</button>
-          <button type="button" onclick="window.history.back()">Cancelar</button>
+          <button type="submit">Save Profile</button>
+          <button type="button" onclick="window.history.back()">Cancel</button>
         </form>
       </section>
     </main>
